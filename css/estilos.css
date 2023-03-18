@@ -1,0 +1,210 @@
+/*comentar*/  
+/*esta es la fuente*/
+/*@font-face {
+    font-family: "Roboto";
+    src: url(../assets/Roboto-Light.ttf);}*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+/*comienzo maquetacion del header*/
+
+
+.borde {
+    border-bottom: 4px solid #A5C9CA; 
+}
+
+.fondo {
+    background-color: #2C3333;  
+}
+   
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+/*termina maquetacion del header*/
+/*comienzo maquetacion del main*/
+
+.contenedorId {
+    width: 13% ;
+    height: 15vh ;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    line-height: 2rem;
+    padding: 10px 10px    
+}
+
+.contenedorId {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+.contenedorId i {
+    color: #A5C9CA;
+    
+}
+.contenedorId a {
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 1rem;
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+}
+
+.buscador {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/img/galeria1\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #A5C9CA;
+}
+
+.textoBuscador {
+    color: #fbf7f5;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.textoBuscador h2{
+    padding: 10px 10px;
+}
+
+.textoBuscador p {
+    padding: 10px 10px;
+}
+
+.contenedorSecciones {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #395B64;
+    border-bottom: 4px solid #A5C9CA;
+}
+
+.contenedorSecciones2 {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: #395B64;
+    border-bottom: 4px solid #A5C9CA;
+
+}
+
+.seccionDeTextos {
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 20px 50px 30px 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2rem;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.altoRow {
+    width: 70%;
+    height: auto;
+}
+.formulario {
+    border: 2px solid white;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;  
+}
+
+.tituloNovedades {
+    background-color: #395B64;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+ .estiloCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A5C9CA;
+ }
+    
+.imgNovedades {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;    
+}
+
+.fondo2 {
+    background-color: #395B64;
+}
+
+.galeriaBiblioteca{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 430px;
+    border:#395B64;
+}
+
+.galeriaBiblioteca img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.galeriaBiblioteca img:hover {
+    cursor:grabbing;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.reglamentoArticulado {
+    background-color: #d0fdd7;
+    text-align: left;
+}
+
+
+/*termina maquetacion del main*/
+/*comienza maquetacion del footer*/
+.pieDePagina {
+    background-color: #2C3333;       
+}
+
+.letraFooter {    
+    line-height: 1.5rem;
+    color: white;
+}
+.iconos {
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.5rem;
+    color: white;
+}
+
